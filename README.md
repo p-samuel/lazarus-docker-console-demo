@@ -5,13 +5,8 @@ I use this boilerplate whenever I want to speedily start up a new Lazarus projec
 2. Copy binaries from <q>bin</q> folder into <q>test</q> folder.
 3. Execute:
 
-    <code>
-    cd test 
-    </code>
-
-    <code>  
-    docker-compose build && docker-compose up -d
-    </code>
+       cd test
+       docker-compose build && docker-compose up -d
 
 4. After building and deploying image on Docker, should be able to see logs from it:
 
